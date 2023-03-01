@@ -22,7 +22,17 @@ Mostrar la lista de empleados
             <td>{{ $empleado->ApellidoPaterno}}</td>
             <td>{{ $empleado->ApellidoMaterno}}</td>
             <td>{{ $empleado->Correo}}</td>
-            <td>Editar | Borrar </td>
+            <td>Editar | 
+                
+            <form action="{{ url('/empleado/'.$empleado->id)}}" method="post">
+                @csrf
+                {{ method_field('DELETE') }}
+                <input type="submit" onclick="return confirm('¿Quieres borrar?')" 
+                       value="Borrar">
+            </form>
+            
+            </td>
+            
         </tr>
         @endforeach
     </tbody>
