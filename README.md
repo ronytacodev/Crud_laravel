@@ -9,19 +9,19 @@
 
 # CRUD APPLICATION
 
-Code to create a CRUD of employees.
+Build an CRUD application of employees with LARAVEL 10, MYSQL, ELOQUENT and BOOTSTRAP 5
 
 ## Screenshot
 
-[x] Interfaz
+* [x] Interfaz
 
 ![](resources/assets/crud-interfaz.jpg)
 
-[x] Edit
+* [x] Edit
 
 ![](resources/assets/crud-edit.jpg)
 
-[x] Add
+* [x] Add
 
 ![](resources/assets/crud-add.jpg)
 
